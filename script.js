@@ -8,11 +8,11 @@ async function loadPrizes() {
         console.log("Loaded prize data:", prizeData); // Debugging step
 
         const rarityIcons = {
-            "common": "https://cdn-icons-png.flaticon.com/128/190/190411.png",
-            "uncommon": "https://cdn-icons-png.flaticon.com/128/3075/3075977.png",
-            "rare": "https://cdn-icons-png.flaticon.com/128/1600/1600946.png",
-            "epic": "https://cdn-icons-png.flaticon.com/128/1828/1828970.png",
-            "legendary": "https://cdn-icons-png.flaticon.com/128/951/951627.png"
+            "common":  "images/common.png",
+            "uncommon": "images/uncommon.png",
+            "rare":  "images/rare.png",
+            "epic":  "images/epic.png",
+            "legendary":  "images/legendary.png"
         };
 
         document.querySelectorAll(".company-box").forEach(companyBox => {
