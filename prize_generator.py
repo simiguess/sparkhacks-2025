@@ -7,11 +7,15 @@ businesses = ["The Restaurant", "The Flower Company", "Salon", "Coffee Cup", "Bo
 
 # Define prize tiers
 treasure = {
-    "common": ["1% off a drink", "3% off a drink", "4% off a drink", "1% off a book", "3% off a book", "4% off a book","1% off a meal", "3% off a meal", "4% off a meal", "1% off a hair service", "3% off a  hair service", "4% off a hair service", "1% off a  bouquet", "3% off a bouquet", "4% off a bouquet", "no prize"],
-    "uncommon": ["5% off a drink","8% off a drink", "5% off a book", "8% off a book", "5% off a meal", "8% off a meal", "5% off a hair service", "8% off a  hair service", "5% off a  bouquet", "8% off a bouquet" ],
-    "rare": ["15% off a drink", "10% off a drink", "15% off a book", "10% off a book", "15% off a meal", "10% off a meal", "15% off a hair service", "10% off a  hair service", "15% off a  bouquet", "10% off a bouquet" ],
-    "epic": ["25% off a drink", "25% off a book", "25% off a meal", "25% off a hair service", "25% off a  bouquet" ],
-    "legendary": ["50% off a drink", "50% off a book", "50% off a meal", "50% off a hair service", "50% off a  bouquet"]
+    "common": ["1% off a drink", "3% off a drink", "4% off a drink", "1% off a book", "3% off a book", "4% off a book",
+               "1% off a meal", "3% off a meal", "4% off a meal", "1% off a hair service", "3% off a hair service",
+               "4% off a hair service", "1% off a bouquet", "3% off a bouquet", "4% off a bouquet", "no prize"],
+    "uncommon": ["5% off a drink", "8% off a drink", "5% off a book", "8% off a book", "5% off a meal", "8% off a meal",
+                 "5% off a hair service", "8% off a hair service", "5% off a bouquet", "8% off a bouquet"],
+    "rare": ["15% off a drink", "10% off a drink", "15% off a book", "10% off a book", "15% off a meal", "10% off a meal",
+             "15% off a hair service", "10% off a hair service", "15% off a bouquet", "10% off a bouquet"],
+    "epic": ["25% off a drink", "25% off a book", "25% off a meal", "25% off a hair service", "25% off a bouquet"],
+    "legendary": ["50% off a drink", "50% off a book", "50% off a meal", "50% off a hair service", "50% off a bouquet"]
 }
 
 prize_weight = {
