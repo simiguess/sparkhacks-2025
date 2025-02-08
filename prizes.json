@@ -1,17 +1,37 @@
 {
-    "The Flower Company": {
+    "Coffee Cup": {
         "prizes": [
             {
                 "rarity": "legendary",
-                "prize": "50% off a bouquet"
+                "prize": "50% off a drink"
+            }
+        ]
+    },
+    "Books Galore": {
+        "prizes": [
+            {
+                "rarity": "common",
+                "prize": "4% off a book"
             },
             {
-                "rarity": "legendary",
-                "prize": "50% off a bouquet"
-            },
+                "rarity": "uncommon",
+                "prize": "5% off a book"
+            }
+        ]
+    },
+    "The Flower Company": {
+        "prizes": [
             {
                 "rarity": "common",
                 "prize": "1% off a bouquet"
+            }
+        ]
+    },
+    "The Restaurant": {
+        "prizes": [
+            {
+                "rarity": "common",
+                "prize": "4% off a meal"
             }
         ]
     },
@@ -19,47 +39,7 @@
         "prizes": [
             {
                 "rarity": "rare",
-                "prize": "15% off a hair service"
-            },
-            {
-                "rarity": "common",
-                "prize": "4% off a hair service"
-            },
-            {
-                "rarity": "rare",
-                "prize": "15% off a hair service"
-            }
-        ]
-    },
-    "Coffee Cup": {
-        "prizes": [
-            {
-                "rarity": "rare",
-                "prize": "15% off a drink"
-            },
-            {
-                "rarity": "common",
-                "prize": "1% off a drink"
-            }
-        ]
-    },
-    "Books Galore": {
-        "prizes": [
-            {
-                "rarity": "uncommon",
-                "prize": "5% off a book"
-            },
-            {
-                "rarity": "uncommon",
-                "prize": "5% off a book"
-            }
-        ]
-    },
-    "The Restaurant": {
-        "prizes": [
-            {
-                "rarity": "uncommon",
-                "prize": "8% off a meal"
+                "prize": "10% off a hair service"
             }
         ]
     }

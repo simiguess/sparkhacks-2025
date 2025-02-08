@@ -5,6 +5,7 @@ import os
 # Define businesses (must match JavaScript names exactly)
 businesses = ["The Restaurant", "The Flower Company", "Salon", "Coffee Cup", "Books Galore"]
 
+json_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prizes.json")
 # Define prize tiers
 treasure = {
     "common": ["1% off a drink", "3% off a drink", "4% off a drink", "1% off a book", "3% off a book", "4% off a book",
@@ -95,6 +96,5 @@ def add_single_prize():
     print(f"Added a new {rarity} prize to {chosen_business}: {prize}")
 
     return rarity,businesses
-    
-
+print(" ran through " )
 add_single_prize()
