@@ -81,7 +81,7 @@ const companies = [
         rating: "3/5",
         employees: "6",
         image: "images/books-piled-.png"
-    }
+    } 
 ];
 
 companies.forEach(company => {
@@ -93,7 +93,7 @@ companies.forEach(company => {
         <div class="company-info">
             <h2>${company.name}</h2>
             <p><strong>Description:</strong> ${company.description}</p>
-            <p><strong>Rating:</strong> ${company.rating}</p>
+            <p><strong> fjsoting:</strong> ${company.rating}</p>
             <p><strong>Employees:</strong> ${company.employees}</p>
         </div>
         <!-- ICONS WILL BE ADDED BELOW THIS WITH JAVASCRIPT -->

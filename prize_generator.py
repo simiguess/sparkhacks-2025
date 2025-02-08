@@ -78,6 +78,7 @@ def add_single_prize():
     with open(json_file_path, "w") as json_file:
         json.dump(prize_data, json_file, indent=4)
 
-    print(f"Added a new {rarity} prize to {chosen_business}: {prize}")
+    return rarity,businesses
+    # print(f"Added a new {rarity} prize to {chosen_business}: {prize}")
 
 add_single_prize()
